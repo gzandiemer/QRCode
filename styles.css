@@ -7,7 +7,6 @@
 
 body {
   background-color: hsl(212, 45%, 89%);
-  /* width: 1440px; */
   font-family: 'Outfit', 'sans-serif';
   text-align: center;
 }
@@ -22,7 +21,7 @@ h1 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   color: hsl(220, 15%, 55%);
   font-weight: 400;
 }
@@ -34,7 +33,6 @@ p {
   border-radius: 20px;
   font-size: 11px;
   text-align: center;
-  margin-top: 30%;
 }
 
 .attribution a {
@@ -45,6 +43,10 @@ p {
   width: 100%;
   height: auto; 
   border-radius: 10px;
+}
+
+.textarea {
+  margin: 20px;
 }
 
 footer {
@@ -63,7 +65,7 @@ footer {
 @media only screen and (min-width: 1000px){
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
+  .col-3 {width: 25%; margin-top: 10%; margin-left: 38%;}
   .col-4 {width: 33.33%;}
   .col-5 {width: 41.66%;}
   .col-6 {width: 50%;}
@@ -73,4 +75,5 @@ footer {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  
 }
