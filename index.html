@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
@@ -14,18 +14,15 @@
 </head>
 
 <body>
-  <div class="row">
-    <div class="col-3">
-      <div class="attribution">
-        <picture> <img id="qrcode" src="./images/image-qr-code.png" alt="qrcode"></picture>
-        <div class="textarea">
-          <h1>Improve your front-end skills by building projects</h1>
-          <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-        </div>
-      </div>
+  <div class="card">
+    <img class="card-img" src="./images/image-qr-code.png" alt="qrcode">
+    <div class="textarea">
+      <h1 class="card-title">Improve your front-end skills by building projects</h1>
+      <p class="card-paragraph">Scan the QR code to visit Frontend Mentor and take your coding skills to the next
+        level</p>
     </div>
   </div>
-  <footer>
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://gzandiemer.com" target="_blank">g-zan</a>.
   </footer>
