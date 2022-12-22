@@ -7,6 +7,7 @@
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
   --Font-family: 'Outfit', sans-serif;
+  --Font-size: 15px;
 }
 
 * {
@@ -33,10 +34,10 @@ h1 {
 }
 
 p {
-  font-size: 16px;
+  font-size: var(--Font-size);
   color: var(--grayish-blue);
   font-weight: 400;
-  margin: 26px;
+  margin: 30px; 
 }
 
 .card {
